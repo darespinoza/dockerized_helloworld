@@ -8,4 +8,4 @@ docker build -t my_app .
 
 To create the Docker container, using the recently created image, run the command: 
 
-docker run -v .:/app -p 4000:5000 my_app
+docker run -p 4000:5000 my_app
