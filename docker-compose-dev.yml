@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  my-flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:5000"
+    volumes:
+      - .:/home/app
